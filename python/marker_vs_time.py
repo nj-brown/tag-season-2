@@ -68,6 +68,7 @@ def main():
     ax.set_xticklabels([str(i) for i in range(0, 11)])
 
     plt.tight_layout()
+    plt.savefig("charts/marker_vs_time.png", dpi=300, bbox_inches="tight")
     plt.show()
 
 if __name__ == "__main__":
